@@ -4,8 +4,6 @@ This code trains and implements liveness detection with video input.
 
 Install steps:
 
-Use Anaconda3
-
 pip install imutils
 
 pip install keras
