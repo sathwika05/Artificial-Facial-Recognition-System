@@ -1,5 +1,5 @@
 # Artificial-Facial-Recognition-System
-An application to detect fake or proxy attendance using Python
+An application to detect fake or proxy attendance using Python.
 This code trains and implements liveness detection with video input
 
 Install steps:
