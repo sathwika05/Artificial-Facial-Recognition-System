@@ -26,10 +26,6 @@ run ./runLiveness.bat to see implementaion of Liveness Detection via video input
 <br>
 ![image](https://user-images.githubusercontent.com/55009076/158629960-beed50a3-c785-41d7-824b-59e113e35843.png)
 
-**Result:**
-<br>
-<br>
-
 
 
 
