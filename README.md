@@ -21,7 +21,7 @@ run ./trainLiveness.bat to train images from ./dataset
 
 run ./runLiveness.bat to see implementaion of Liveness Detection via video input (-c 0.5 is the threshold of "Fake" and "Liveness")
 
-* Classification Report of the Model:
+*Classification Report of the Model:
 <br>
 <br>
 ![image](https://user-images.githubusercontent.com/55009076/158629960-beed50a3-c785-41d7-824b-59e113e35843.png)
