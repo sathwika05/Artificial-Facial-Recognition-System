@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../static/CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../static/JS/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+    <title>Data</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0;">
+         
+    
+    <div class="nav">
+        <h4>Face Recognization</h4>
+    </div>
+        
+
+    <div class="data">
+        <div class="camerafeed"> 
+            <img src="{{url_for('video_feed')}}">
+        </div>
+        <div style="display: flex;flex-direction: column; justify-content: center;align-items: center;">
+            <div class="inputs">
+                <form action="{{url_for('snap')}}">
+                    <label for="fname">name:</label><br>
+                    <input type="text" id="fname" name="name"><br>
+                    <label for="lname">id:</label><br>
+                    <input type="number" id="lname" name="id">
+
+                    <button type="submit" name="submitda" >Capture</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
