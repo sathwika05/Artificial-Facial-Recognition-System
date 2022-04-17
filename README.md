@@ -4,7 +4,7 @@ This code trains and implements liveness detection with video input.
 
 Install steps:
 
-pip install imutils
+* pip install imutils
 
 pip install keras
 
