@@ -6,11 +6,11 @@ Install steps:
 
 * pip install imutils
 
-pip install keras
+* pip install keras
 
-pip install --upgrade h5py
+* pip install --upgrade h5py
 
-pip install opencv-python
+* pip install opencv-python
 
 Train & Deploy steps:
 use ./gather.bat to get train image snapshots from video in ./videos folder. (images will be stored in ./dataset/fake & real)
